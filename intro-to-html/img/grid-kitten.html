@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    
+
+.thumbnail-container{
+  width:100%;
+  align-items: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  
+}
+.fb-cat-photo{
+  width:100%;
+  object-position:center;
+  object-fit: cover;
+  margin-bottom: 10px;
+    
+}
+.strong-fbname{
+  color:black;
+  width:100px;
+  font-size: 22px;
+  padding:0;
+  margin-left:10px;
+  margin-bottom: 5px;
+  display:inline-block;
+}
+
+.small{
+  width:100%;
+   align-items: center;
+  
+}
+.small-photo{
+  width:45px;
+  height:45px;
+  object-fit:cover;
+  object-position: center;
+  border-radius:100%;
+  margin-left:10px;
+  padding:0px 0px;
+  vertical-align:top;
+  align-items: center;
+}
+.small-line{
+  width:150px;
+  vertical-align:top;
+  display: inline-block;
+  margin-left:5px;
+  padding:5px 0px;
+  font-size: 20px;
+  color: rgb(100, 100, 100);
+
+}
+.addfriend{
+  background-color: rgb(24, 119, 242);
+  padding:15px 30px;
+  border-radius:4px;
+  border:none;
+  color:white;
+  margin:10px 10px;
+  display:inline-block;
+ 
+}
+.grid-catty{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 25px;
+}
+
+
+
+  </style>
+</head>
+<body>
+  <div class="grid-catty">
+      <div class="thumbnail-container">
+        <img class="fb-cat-photo" src="/intro-to-html/img/cat2.jpg">
+        <p class="strong-fbname"><strong class="strong-fbname">Oliver</strong></p>
+        <div class="small">
+          <img class="small-photo" src="/intro-to-html/img/cat2.jpg" alt="">
+          <p class=" small-line">2 mutual friends</p>
+        </div>
+          <button class="addfriend">Add Friend</button>      
+     </div>
+      <div class="thumbnail-container">
+        <img class="fb-cat-photo" src="/intro-to-html/img/kitten2.jpeg">
+        <p class="strong-fbname"><strong class="strong-fbname">Oliver</strong></p>
+        <div class="small">
+          <img class="small-photo" src="/intro-to-html/img/kitten2.jpeg" alt="">
+          <p class=" small-line">2 mutual friends</p>
+        </div>
+        <button class="addfriend">Add Friend</button>      
+    </div>
+    <div class="thumbnail-container">
+      <img class="fb-cat-photo" src="/intro-to-html/img/dog.jpg">
+      <p class="strong-fbname"><strong class="strong-fbname"></strong></p>
+      <div class="small">
+        <img class="small-photo" src="/intro-to-html/img/dog.jpg" alt="">
+        <p class=" small-line">4 mutual friends</p>
+      </div>
+      <button class="addfriend">Add Friend</button>      
+  </div>
+  
+  </div>
+    
+    
+</div>
+</body>
+</html>

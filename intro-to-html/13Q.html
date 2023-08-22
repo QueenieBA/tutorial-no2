@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercise 13EE</title>
+  <style>
+    *{
+      background-color: lightgray;
+      border: 1px solid black;
+    }
+
+
+    body{
+      font-family: Arial;
+    }
+    .container{
+    
+    width: 400px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    }
+    .pic{
+      width:50px;
+      height:50px;
+      border-radius: 50px;
+      object-fit: cover;
+     
+    }
+    .sender-name{
+      font-weight: bold;
+      font-size: 14px;
+
+    }
+    .subject-content{
+      font-weight: bold;
+      font-size: 14px;
+
+    }
+    .time{
+      color:gray;
+     
+      
+    }
+    .body{
+      color:gray;
+    }
+    .inboxes{
+      text-transform: uppercase;
+      color:gray;
+      font-weight: bold;
+      
+    }
+    .sender{
+      display:flex;
+      flex-direction: row;
+      align-items: center;
+    } 
+    
+  </style>
+</head>
+<body>
+
+  <div class="container">
+     <div class="inbox-label">All Inboxes</div>
+      <div>
+      <div class="box">
+        <img class="pic" src="/intro-to-html/img/kitten1.jpeg">
+      
+       <div class="email-content">
+        <div class="header">
+         <div class="sender">Chewy Promotions</div>
+         <div class="time">4&#8758;58 PM</div>
+       </div>
+       <div class="subject">
+       Biggest sales of the year!
+       </div>
+       <div class="message">
+        Hey there! We're writing to tell you  about your...
+       </div>
+     </div>
+  </div>
+  
+</body>
+</html>

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)http://127.0.0.1:5501/flex.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>flextest</title>
+ 
+
+
+  <style>
+    *{
+      /* border:1px solid grey; */
+
+      font-family: 'Roboto', sans-serif;
+      
+    }
+    .container{
+       width:400px;
+       border:1px solid gray;
+       
+
+    }
+    .div{
+      min-width: 10px;
+      min-height:30px;
+    }
+    .profile{
+      height:50px;
+      width: 50px;
+      border-radius: 50px;
+      display: center;
+    
+    }
+    .photo{
+      margin-left:5px;
+    }
+  
+    .content-box{
+      display:flex;
+      align-items: center;
+      gap:8px;
+   
+      }
+    .header{
+      display:flex;
+       }
+    .title{
+      flex-grow: 1;
+    }
+    .body{
+      display:flex;
+      flex-direction:column ;
+      margin-bottom:10px;
+    }
+    .inbox{
+      color:grey;
+      text-transform: uppercase;
+      padding:8px;
+      font-size: 12px;;
+      }
+      .title{
+        font-weight: bold;
+        font-size: 14px;
+      }
+      .time{
+        color:gray;
+        margin-right:10px;
+      }
+      .subject{
+        font-weight: bold;
+        font-size: 14px;
+     
+      }
+      .email{
+        color:gray;
+        font-size: 12px;;
+      }
+      </style>
+    
+
+  
+</head>
+  
+
+<body data-new-gr-c-s-check-loaded="14.1117.0" data-gr-ext-installed="">
+  <div class="container">
+    <div class="inbox">
+      All Inboxes
+    </div>
+     <div class="content-box">  
+      <div class="box photo">
+        <img class="profile" src="./flextest_files/cat2.jpg">
+     </div>
+     <div class="box content">
+       <div class="header">
+          <div class="title">
+            Chewy Promotions
+          </div>
+          <div class="time">
+            4:58 PM
+          </div>      
+        </div>
+
+        <div class="body">
+         <div class="subject">
+          Biggest sales of the year! 
+        </div>
+          <div class="email">
+            Hey there! We're writing to tell you about our...
+          </div>
+        </div>
+       
+      </div>
+      
+      
+      
+      <div class="content-box"></div>
+    <div class="content-box"></div>
+
+
+
+  </div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</div></body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+  div.grammarly-desktop-integration {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select:none;
+    user-select:none;
+  }
+
+  div.grammarly-desktop-integration:before {
+    content: attr(data-content);
+  }
+</style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>

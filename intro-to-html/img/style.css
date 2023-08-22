@@ -1,0 +1,326 @@
+*{
+  font-family:Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+.kitten1{
+  width:200px;
+  border-radius: 25%;
+}
+.kitten2{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+.kitten3{
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  object-position: center;
+  object-fit: cover;   
+}
+.search-bar{
+width: 150px;
+height:25px;
+border-radius:8px;
+margin:30px;
+border-style: solid;
+border-color: rgb(200, 200, 200);
+outline: none;
+padding-left:10px;
+  
+}
+.google-bar{
+width: 300px;
+height:25px;
+margin:30px;
+border-radius: 12px;  
+background-color: white;
+border-color: none;
+border-radius: 30px;
+border-style: solid;
+box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+border: none;
+outline: none;
+padding-left:15px;
+
+}
+#email{
+width:250px;
+height:15px;
+border-style: solid;
+border-color: rgb(82, 78, 78);
+outline: none;
+padding-left:5px;
+padding:2px;
+border-radius:5px;
+
+}
+.agree1{
+font-size: 12px;
+}
+.agree-btn{
+background-color: rgb(10, 102, 194);
+color:white;
+padding:10px;
+width: 250px;
+border-radius: 25px;
+border:none;
+
+}
+.profile{
+width:50px;
+border-radius: 50px;
+vertical-align: middle;
+}
+.tweet-btn{
+color:white;
+font-weight: bold;
+background-color: rgb(29, 155, 240);
+border: none;
+border-radius: 25px;
+padding:6px;
+background-color: rgb(29, 155, 240);
+}
+.kitten5{
+height:30px;
+margin-top: -10px;
+border: none;
+vertical-align: middle;
+outline:none;
+}
+.name,
+.email{
+display: block;
+margin:10px;
+outline:none;
+border-color: rgb(192, 188, 188);
+outline:none;
+border: solid;
+
+}
+.survey{
+width:300px;
+display: inline-block;
+vertical-align: middle;;
+}
+.survey-btn{ 
+display: inline-block;
+vertical-align: middle;;
+}
+.google-logo{
+display: block;
+width:100px;
+object-fit: cover;
+object-position:center;
+margin-left:120px;
+margin-bottom:-10px;
+}
+.fname,
+.lname{
+width:150px;
+height:20px;
+border-radius: 5px;
+outline:none;
+border: solid;
+border-color: rgb(192, 188, 188);
+padding-left:10px
+
+}
+.email-form{
+width:320px;
+height:25px;
+border-radius: 5px;
+border: solid;
+border-color:  rgb(192, 188, 188);
+display: block;
+margin-top:10px;
+margin-bottom: 10px;
+outline:none;
+padding-left:10px
+
+}
+#signup-btn{
+background-color:rgb(41, 79, 161);
+width: 340px;
+height: 40px;
+color:white;
+border: none;
+border-radius: 12px;
+}
+.pickup,
+.destination,
+.uber{
+display: block;
+margin:10px;
+
+}
+.pickup,
+.destination{
+width:300px;
+height:25px;
+padding:2px;
+margin-top:-5px;
+background-color:rgba(231, 226, 226, 0.959);
+color:gray;
+border:none;
+outline:none;
+font-size: 14px;
+padding-left:15px;
+border-radius: 2px;
+}
+.uber-form{
+padding-left:15px;
+font-weight: bold;
+font-size: x-large;
+
+}
+.request-btn,
+.schedule-btn
+{
+padding:8px;
+margin-left:10px;
+}
+.request-btn{
+background-color: black;
+color:white;
+border:none;
+outline:none;
+}
+.schedule-btn{
+border:none;
+outline:none;
+
+}
+.red{
+width:100px;
+height:100px;
+background-color: red;
+margin-bottom:10px;
+}
+.green{
+width:100px;
+height:100px;
+background-color: green;
+border-radius: 100%;
+}
+.order{
+width:250px;
+height:70px;
+border: solid;
+border-color: gray;
+margin-top:10px;
+padding:10px;
+
+}
+.youtube{
+width: 300px;
+height:100px;
+background-color:rgb(24, 23, 23);
+color:white;
+padding:10px;
+margin:10px;
+background-color: rgb(33, 33, 33);
+padding-left:15px;
+margin-bottom: 50px;
+}
+.intro-youtube{
+font-weight: bold;
+}
+.phase{
+font-size: 12px;
+color: rgb(160, 160, 160);
+}
+#google{
+
+width:400px;
+height:500px;
+
+}
+#search-google{
+display: block;
+margin-left:70px;
+}
+#google-search,
+#button-lucky{
+padding:10px;
+border:none;
+margin-right:5px;
+font-weight: bold;
+}
+.container{
+width:400px;
+display:inline-block;
+height:100px;
+margin:0;
+padding:0;
+}
+
+.cat-infos{
+display: inline-block;
+width:110px;
+
+
+}
+.cat-profile{
+display: inline-block;
+}
+
+.prof-pic{
+width:100px;
+height:100px;
+border-radius:100%;
+object-position: center;
+object-fit: cover;
+display: inline-block;
+margin-right:5px;
+margin-bottom:2px;
+margin-top:2px;
+
+}
+.name{
+display: inline-block;
+width: 130px;
+vertical-align: top;
+margin-left: 8px;
+margin-bottom: 5px;
+border: none;
+vertical-align: top;
+margin-right:2px;
+line-height:2px;
+
+
+}
+.strong{ 
+display:inline-block;
+}
+.follow{
+background-color: rgb(29, 155, 240);
+color:white;
+padding:12px 30px;
+border-radius:12px;
+border:none;
+font-size: 14px;
+display: inline-block; 
+font-weight: bold;
+
+}
+.strong{
+color:black;
+}
+p{
+
+padding:10px;
+margin:0;
+font-size:14px;
+color: rgb(160, 160, 160);
+}
+
+.btn-follow{
+display: inline-block;
+height: 50px;
+width:100px;
+vertical-align: middle;
+margin-bottom: 65px;
+}
+/* fb css code  */
